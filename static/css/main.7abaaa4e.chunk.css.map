@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/CustomCSS.css"],"names":[],"mappings":"AAAA,QACE,cACF,CACA,OACE,aAAc,CACd,YACF","file":"main.7abaaa4e.chunk.css","sourcesContent":[".nav li {\r\n  display: inline;\r\n}\r\n.nav a {\r\n  display: block;\r\n  padding: 10px;\r\n}\r\n"]}
