@@ -46,9 +46,15 @@ function Projects() {
                 GitHub
               </button>
             </a>
-            {/* <button type="button" class="btn btn-sm btn-outline-secondary">
-              Demo
-            </button> */}
+            <a
+              href="https://iipacii.github.io/shakespeare"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Demo
+              </button>
+            </a>
           </ProjectCard>
         </div>
       </div>
