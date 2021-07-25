@@ -32,7 +32,7 @@ const Jumbotron = () => {
           </p>
           <p>
             <a
-              href="/resume0.pdf"
+              href="/resume.pdf"
               className="btn btn-dark my-2"
               style={{ margin: "4px" }}
             >
