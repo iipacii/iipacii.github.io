@@ -27,8 +27,10 @@ const Jumbotron = () => {
             className="lead text-muted"
             style={{ backdropFilter: "blur(10px)" }}
           >
-            I'm just a guy who's interested in making GUI based applications and
-            solving coding based problems.
+            Data Scientist with a former experience as a developer. Background
+            in Mathematics and programming with a deep interest in Data
+            Analytics and Natural Language Processing. Someone who can adapt to
+            new technologies and languages quickly.
           </p>
           <p>
             <a
