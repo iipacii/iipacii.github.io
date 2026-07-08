@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranshu Acharya</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: ui-monospace, "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            transition: background-color 0.8s ease;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+
+
+
+
+        /* ── CONTENT LAYER ── */
+        .content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .header {
+            margin-bottom: 4rem;
+            text-align: center;
+            margin-top: 10vh;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            margin: 0 0 0.5rem 0;
+            letter-spacing: 0.02em;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #aaa;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-width: 450px;
+        }
+
+        li {
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            margin-left: -0.5rem;
+            transition: background 0.3s, color 0.3s, letter-spacing 0.3s;
+            position: relative;
+        }
+
+        a:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        /* Link hover inversion */
+        a:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        .desc {
+            font-size: 1rem;
+            color: #999;
+            transition: color 0.3s;
+        }
+
+        li:has(.nav-work:hover) .desc,
+        li:has(.nav-world:hover) .desc {
+            color: #ccc;
+        }
+
+        .socials {
+            margin-top: 2rem;
+            display: flex;
+            gap: 16px;
+            list-style: none;
+            margin-left: 0;
+            padding: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .socials li {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .social-link {
+            color: #fff;
+            text-decoration: none;
+            opacity: 0.75;
+            transition: opacity 0.3s;
+            padding: 0.2rem 0.4rem;
+            margin-left: -0.4rem;
+        }
+
+        .social-link:hover {
+            opacity: 1;
+            background: #fff;
+            color: #000;
+        }
+
+        @media (max-width: 600px) {
+            .socials {
+                margin-top: 1.5rem;
+                gap: 12px;
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            li {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="content">
+        <div class="header">
+            <h1>pranshu acharya</h1>
+            <ul class="socials">
+                <li><a href="https://github.com/iipacii" target="_blank" class="social-link">github</a></li>
+                <li><a href="https://linkedin.com/in/iipacii" target="_blank" class="social-link">linkedin</a></li>
+                <li><a href="https://youtube.com/@iampac" target="_blank" class="social-link">youtube</a></li>
+                <li><a href="https://open.spotify.com/user/iipacii" target="_blank" class="social-link">spotify</a></li>
+                <li><a href="https://soundcloud.com/iampac" target="_blank" class="social-link">soundcloud</a></li>
+                <li><a href="https://x.com" target="_blank" class="social-link">x</a></li>
+            </ul>
+        </div>
+
+        <ul>
+            <li><a href="work.html" class="nav-work">work</a> <span class="desc">logic &amp; data</span></li>
+            <li><a href="world.html" class="nav-world">world</a> <span class="desc">culture &amp; sounds</span></li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

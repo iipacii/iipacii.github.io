@@ -1,0 +1,160 @@
+{
+  "name": "PRANSHU ACHARYA",
+  "location": "New Bedford, MA",
+  "email": "pranshuac1@gmail.com",
+  "status": "Open to relocate",
+  "social": {
+    "linkedin": "linkedin.com/in/iipacii",
+    "github": "github.com/iipacii"
+  },
+  "pitch": "AI/ML engineer with 3+ years of experience shipping end-to-end GenAI systems — RAG pipelines, agentic tool-calling workflows, LLM evaluation and guardrails — for Fortune 500 clients and applied research. Currently building AI-powered automation at UMass Dartmouth.",
+  "stats": [
+    { "num": "3+", "proof": "years delivering ML, NLP and GenAI in production" },
+    { "num": "4.0", "proof": "MS Data Science GPA, UMass Dartmouth" },
+    { "num": "40%", "proof": "retrieval relevance gain from semantic RAG indexing" },
+    { "num": "15+ hrs", "proof": "of weekly manual work eliminated via ETL automation" },
+    { "num": "25%", "proof": "API latency cut on a global retail platform" },
+    { "num": "99.9%", "proof": "uptime on AWS enterprise infrastructure" }
+  ],
+  "skills": {
+    "LLM & RAG": ["RAG", "LangChain", "LlamaIndex", "LCEL", "Prompt Engineering", "Embeddings", "Semantic Search", "Chunking", "Fine-Tuning", "Model Alignment", "OpenAI / Anthropic / HF APIs"],
+    "Agents & Tooling": ["Tool / Function Calling", "AI Agents", "Orchestration", "Context & Memory Management", "Model Context Protocol (MCP)", "LangGraph"],
+    "ML & NLP": ["PyTorch", "Scikit-learn", "XGBoost", "Transformers (BERT, RoBERTa)", "CNNs", "SpaCy (NER)", "NLTK", "Word2Vec", "TF-IDF", "Pandas", "NumPy"],
+    "Vector & Data Stores": ["Pinecone", "Chroma", "Qdrant", "Weaviate", "PostgreSQL", "MongoDB", "DynamoDB", "Oracle"],
+    "Infra & MLOps": ["AWS (S3, Lambda, ECS, Glue, Redshift, Athena)", "Docker", "CI/CD (GitHub Actions, Jenkins)", "Model Evaluation", "Guardrails", "PII Redaction", "Monitoring"],
+    "Languages": ["Python", "JavaScript (Node.js, React, Next.js)", "Java (Spring Boot)", "SQL / PL-SQL", "Shell"]
+  },
+  "education": [
+    {
+      "school": "University of Massachusetts Dartmouth",
+      "location": "North Dartmouth, MA",
+      "degree": "Master of Science in Data Science",
+      "period": "August 2023 - May 2025",
+      "gpa": "4.0/4.0"
+    },
+    {
+      "school": "Vellore Institute of Technology (VIT)",
+      "location": "Vellore, India",
+      "degree": "Bachelor of Technology in Computer Science & Engineering",
+      "period": "August 2018 - May 2022",
+      "gpa": "8.56/10.0"
+    }
+  ],
+  "experience": [
+    {
+      "date": "AUG 25 — PRES",
+      "role": "Data & Automation Engineer",
+      "company": "Career Center, UMass Dartmouth",
+      "location": "North Dartmouth, MA",
+      "icon": "U",
+      "color": "#c41230",
+      "description": "End-to-end AI-powered automation, data pipelines, and business intelligence — improving operational efficiency, reducing manual effort, and enabling self-service analytics.",
+      "highlights": [
+        "Architected LLM-powered automation workflows that transform unstructured model outputs into structured intents, enabling backend task execution through function calling and workflow orchestration.",
+        "Engineered scalable ETL pipelines integrating 10+ disparate internal and external sources, standardizing schemas and eliminating 15+ hours of manual processing per week.",
+        "Built 10+ interactive Power BI dashboards tracking student-to-employer conversion funnels, hiring trends, and operational KPIs for leadership decision-making.",
+        "Automated end-to-end reporting and data workflows using Python, SQL, and Power BI, reducing operational overhead and accelerating business insights."
+      ]
+    },
+    {
+      "date": "MAY 24 — MAY 25",
+      "role": "AI Research Engineer (LLM Privacy & Safety)",
+      "company": "College of Engineering, UMass Dartmouth",
+      "location": "North Dartmouth, MA",
+      "icon": "U",
+      "color": "#c41230",
+      "description": "Owned end-to-end LLM evaluation frameworks benchmarking foundation models on privacy, safety, and performance. Built ICV-based model steering and real-time PII guardrails for secure LLM deployment.",
+      "highlights": [
+        "Designed a comprehensive evaluation framework to benchmark Llama 3.1 8B, Mistral 7B, GPT-4o, and Gemini on privacy-preserving NLP tasks, analyzing trade-offs between PII leakage, semantic fidelity, and utility.",
+        "Implemented In-Context Vector (ICV) latent-state steering using paired and unpaired demonstrations to align LLMs toward privacy-safe, non-inferential responses while maintaining response quality.",
+        "Developed a modular guardrail framework integrating SpaCy NER, custom PII detection, and real-time redaction to mitigate sensitive information leakage during LLM inference.",
+        "Built automated benchmarking pipelines and custom evaluation metrics enabling reproducible experimentation and systematic model comparison across safety, privacy, and semantic performance."
+      ]
+    },
+    {
+      "date": "MAR 22 — JUL 23",
+      "role": "Programmer Analyst (Backend & Cloud)",
+      "company": "Cognizant Technology Solutions",
+      "location": "India",
+      "icon": "C",
+      "color": "#0066cc",
+      "description": "Owned end-to-end development of scalable Java/Spring Boot microservices, AWS cloud infrastructure, and CI/CD pipelines for a global retail platform.",
+      "highlights": [
+        "Architected and enhanced Java/Spring Boot microservices and RESTful APIs, reducing API latency by 25% through performance optimization, service orchestration, and database tuning.",
+        "Managed AWS infrastructure using Auto Scaling, Elastic Load Balancing, and CloudWatch to achieve 99.9% uptime under fluctuating enterprise workloads.",
+        "Automated software delivery through Jenkins CI/CD pipelines, integrating unit testing, build validation, and deployment automation.",
+        "Built test automation frameworks with JUnit and Mockito, increasing code coverage to 85% and reducing production defects by 15%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "date": "LLM / PRIVACY",
+      "title": "Secure RAG QA System",
+      "subtitle": "LangChain / ChromaDB",
+      "link": "https://github.com/iipacii/langChain-RAG",
+      "description": "RAG pipeline with hierarchical chunking and semantic indexing (+40% retrieval relevance vs. keyword search), with an in-chain PII redaction guardrail for HIPAA/SOC2 compliance."
+    },
+    {
+      "date": "API / AGENTIC",
+      "title": "Repo Diagram Generator",
+      "subtitle": "Streamlit / GPT",
+      "link": "https://github.com/iipacii/flow",
+      "description": "Streamlit app using GPT with recursive AST parsing to extract code structure and autogenerate Mermaid.js Class, Sequence, ER, and Journey diagrams — an LLM tool-calling workflow over raw source."
+    },
+    {
+      "date": "PODCAST / GENAI",
+      "title": "AI Podcast Engine",
+      "subtitle": "Go / Next.js / ElevenLabs",
+      "link": "https://github.com/iipacii/avocado_and_host",
+      "description": "Go/Next.js engine that scrapes social trends, summarizes via OpenAI, and synthesizes high-fidelity audio with the ElevenLabs API — an end-to-end multi-step generative pipeline. (YHack)"
+    },
+    {
+      "date": "AUDIO / ML",
+      "title": "Emotion & Genre CNN",
+      "subtitle": "PyTorch / Librosa",
+      "link": "https://github.com/iipacii/DigitalVinyl",
+      "description": "Multi-output PyTorch CNN trained on the DEAM dataset predicting continuous valence/arousal (0.107 RMSE) while simultaneously classifying musical genre, plus an LSB audio steganography tool."
+    },
+    {
+      "date": "WEB / FORENSICS",
+      "title": "Forensics Drive Scanner",
+      "subtitle": "FastAPI / Electron",
+      "link": "https://github.com/iipacii/ForensicsDriveScanner",
+      "description": "Desktop tool performing multi-threaded enumeration of NTFS drive headers to reconstruct file hierarchies and detect hidden partition data, with VirusTotal hash-matching for malware identification."
+    },
+    {
+      "date": "NLP / SENTIMENT",
+      "title": "Twitter Sentiment Analysis",
+      "subtitle": "NLTK / Feedforward NN",
+      "description": "Processed 10,000+ tweets using TF-IDF vectorization and NLTK tokenization; trained a Feedforward Neural Network to 92% classification accuracy."
+    },
+    {
+      "date": "SPORTS / PREDICTION",
+      "title": "Premier League Stats",
+      "subtitle": "Scikit-learn / XGBoost",
+      "description": "Scikit-learn pipeline (Random Forest/XGBoost) analyzing historical match data — 85% accuracy in outcome prediction through feature engineering of player and team form metrics."
+    },
+    {
+      "date": "NLP / WEB",
+      "title": "Duplicate Question Detection",
+      "subtitle": "Flask / Word2Vec",
+      "description": "Flask web app using Word2Vec embeddings and XGBoost to identify semantically duplicate queries in community forums, reducing content redundancy."
+    }
+  ],
+  "certifications": [
+    { "name": "Neural Networks & Deep Learning — DeepLearning.AI", "link": "https://www.coursera.org/account/accomplishments/verify/PCVBR7N47W5H" },
+    { "name": "Big Data Foundations (Hadoop, Spark) — IBM", "link": "https://www.credly.com/badges/d9d3f840-1c01-42e5-ab53-e297f3ced69c/linked_in_profile" },
+    { "name": "Server-side Development (Node.js, MongoDB) — HKUST", "link": "https://www.coursera.org/account/accomplishments/verify/Q9DR9ZG42GT3" }
+  ],
+  "interests": ["AI Ethics", "Privacy-Preserving ML", "Soccer", "Music Production (FL Studio, Bitwig Studio)", "Sustainability"],
+  "publications": [
+    {
+      "title": "Offensive Language Identification System",
+      "venue": "IRJET",
+      "date": "November 2021",
+      "link": "https://www.irjet.net/archives/V8/i11/IRJET-V8I11251.pdf",
+      "description": "Benchmarked SVM (77%), LSTM (75%), and Multinomial Naive Bayes (71%) on the SemEval-2019 OffensEval dataset; built a Flask-based interface for real-time offensive content detection."
+    }
+  ]
+}

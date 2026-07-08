@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work — Pranshu Acharya</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #fff;
+            font-family: ui-monospace, "Courier New", Courier, monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 40px 60px;
+        }
+
+        /* ── LOADING ── */
+        .top-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 2px;
+            background: #fff;
+            z-index: 3000;
+            width: 0;
+            transition: width 0.4s cubic-bezier(0.1, 0.5, 0.5, 1), opacity 0.5s ease;
+            opacity: 1;
+            pointer-events: none;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        /* ── SKELETON ── */
+        .skeleton {
+            background: #0a0a0a;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .skeleton::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.03), transparent);
+            animation: shimmer 1.5s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        /* ── NAV ── */
+        .page-nav {
+            margin-bottom: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11px;
+            color: #666;
+            position: sticky;
+            top: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(8px);
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        .page-nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 2px 6px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .page-nav a:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        .nav-sections {
+            display: flex;
+            gap: 16px;
+        }
+
+        .nav-sections a {
+            color: #777;
+            padding: 2px 0;
+        }
+
+        .nav-sections a:hover {
+            background: none;
+            color: #fff;
+        }
+
+        /* ── LAYOUT ── */
+        .work-section {
+            max-width: 1000px;
+            margin: 0 auto 70px auto;
+            scroll-margin-top: 80px;
+        }
+
+        .section-header {
+            font-size: 1.5rem;
+            margin-bottom: 28px;
+            text-align: center;
+            font-weight: normal;
+            letter-spacing: 0.1em;
+            color: #ccc;
+        }
+
+        .section-subtitle {
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #777;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #111;
+            padding-bottom: 8px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 450px 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .grid-container.even {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* ── METADATA LIST ── */
+        .metadata-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .metadata-row {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 0;
+        }
+
+        .metadata-item {
+            font-size: 11px;
+            color: #999;
+            text-decoration: none;
+            display: block;
+            transition: color 0.2s;
+            word-break: break-word;
+            white-space: normal;
+            max-width: 100%;
+        }
+
+        .metadata-item:hover {
+            color: #fff;
+        }
+
+        .metadata-item span {
+            color: #aaa;
+        }
+
+        .metadata-item b {
+            font-weight: normal;
+            color: #eee;
+        }
+
+        a.item-link {
+            color: #eee;
+            text-decoration: none;
+            border-bottom: 1px solid #555;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        a.item-link:hover {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+
+        a.item-link .arrow {
+            font-size: 9px;
+            color: #888;
+        }
+
+        /* ── ICONS ── */
+        .icon {
+            width: 11px;
+            height: 11px;
+            fill: currentColor;
+            vertical-align: -1.5px;
+            flex-shrink: 0;
+        }
+
+        a.item-link .icon {
+            margin-left: 5px;
+            opacity: 0.75;
+            transition: opacity 0.2s;
+        }
+
+        a.item-link:hover .icon {
+            opacity: 1;
+        }
+
+        /* ── KEYWORD HIGHLIGHT ── */
+        .kw {
+            color: #e9e9e9;
+        }
+
+        /* ── PITCH ── */
+        .pitch-text {
+            font-size: 12px;
+            color: #bbb;
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+
+        .pitch-status {
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .pitch-status::before {
+            content: "●";
+            color: #4ade80;
+            margin-right: 6px;
+            font-size: 7px;
+            vertical-align: middle;
+        }
+
+        .pitch-links {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .pitch-links a {
+            font-size: 10px;
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            align-self: flex-start;
+        }
+
+        .pitch-links a:hover {
+            color: #fff;
+        }
+
+        .receipt-item {
+            line-height: 1.5;
+        }
+
+        .receipt-item b {
+            display: inline-block;
+            min-width: 64px;
+            color: #fff;
+        }
+
+        /* ── EXPERIENCE ── */
+        .experience-item {
+            display: grid;
+            grid-template-columns: 240px 1fr;
+            gap: 40px;
+            border-bottom: 1px solid #111;
+            padding-bottom: 24px;
+            margin-bottom: 24px;
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+
+        .experience-date {
+            font-size: 9px;
+            color: #888;
+            letter-spacing: 0.1em;
+            margin-bottom: 4px;
+        }
+
+        .experience-role {
+            font-size: 12px;
+            color: #fff;
+            margin-bottom: 2px;
+        }
+
+        .experience-company {
+            font-size: 11px;
+            color: #999;
+        }
+
+        .experience-description {
+            font-size: 11px;
+            color: #aaa;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .experience-highlights {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .highlight-item {
+            font-size: 10px;
+            color: #999;
+            padding-left: 12px;
+            border-left: 1px solid #222;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        .experience-item:hover .highlight-item {
+            border-color: #666;
+            color: #ccc;
+        }
+
+        /* ── PROJECTS ── */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px 50px;
+        }
+
+        .project-item {
+            border-bottom: 1px solid #111;
+            padding-bottom: 20px;
+            transition: border-color 0.2s;
+        }
+
+        .project-item:hover {
+            border-bottom-color: #333;
+        }
+
+        .project-tag {
+            font-size: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #777;
+            margin-bottom: 4px;
+        }
+
+        .project-title {
+            font-size: 12px;
+            color: #fff;
+            margin-bottom: 2px;
+        }
+
+        .project-subtitle {
+            font-size: 10px;
+            color: #999;
+            margin-bottom: 8px;
+        }
+
+        .project-description {
+            font-size: 11px;
+            color: #999;
+            line-height: 1.6;
+        }
+
+        /* ── SKILLS (pill shelf) ── */
+        #skills-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px 50px;
+        }
+
+        .skills-block .section-subtitle {
+            margin-bottom: 12px;
+        }
+
+        .skills-shelf {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .skill-pill {
+            background: #0a0a0a;
+            padding: 3px 10px;
+            border-radius: 20px;
+            border: 1px solid #222;
+            color: #aaa;
+            font-size: 10px;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .skill-pill:hover {
+            border-color: #333;
+            color: #fff;
+            background: #111;
+        }
+
+        /* ── FOOTER CONTACT ── */
+        .contact-row {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            font-size: 10px;
+            color: #888;
+        }
+
+        .contact-row a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .contact-row a:hover {
+            color: #fff;
+        }
+
+        /* ── MOBILE ── */
+        @media (max-width: 900px) {
+            body {
+                padding: 20px;
+            }
+
+            .grid-container,
+            .grid-container.even {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .projects-grid,
+            #skills-list,
+            .experience-item {
+                grid-template-columns: 1fr;
+            }
+
+            .experience-item {
+                gap: 12px;
+            }
+
+            .nav-sections {
+                display: none;
+            }
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top-loader" class="top-loader"></div>
+
+    <div class="page-wrap">
+        <!-- ── NAV ── -->
+        <nav class="page-nav">
+            <a href="index.html">&larr; back</a>
+            <span>pranshu acharya &mdash; work</span>
+            <div class="nav-sections">
+                <a href="#why-section">why me</a>
+                <a href="#experience-section">experience</a>
+                <a href="#projects-section">projects</a>
+                <a href="#skills-section">skills</a>
+                <a href="#education-section">education</a>
+                <a href="assets/resume.pdf" download="Pranshu_Acharya_Resume.pdf">resume &darr;</a>
+            </div>
+        </nav>
+
+        <!-- ── WHY HIRE ME ── -->
+        <div class="work-section" id="why-section">
+            <div class="section-header">why hire me</div>
+            <div class="grid-container">
+                <div class="metadata-list" id="pitch-block">
+                    <div class="metadata-row">
+                        <div class="section-subtitle">Profile</div>
+                        <div class="skeleton" style="height:12px; width:90%; margin-bottom:8px"></div>
+                        <div class="skeleton" style="height:12px; width:75%; margin-bottom:8px"></div>
+                        <div class="skeleton" style="height:12px; width:80%; margin-bottom:8px"></div>
+                    </div>
+                </div>
+                <div class="metadata-list" id="why-list">
+                    <div class="metadata-row">
+                        <div class="section-subtitle">By The Numbers</div>
+                        <div class="skeleton" style="height:12px; width:85%; margin-bottom:8px"></div>
+                        <div class="skeleton" style="height:12px; width:70%; margin-bottom:8px"></div>
+                        <div class="skeleton" style="height:12px; width:80%; margin-bottom:8px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── EXPERIENCE ── -->
+        <div class="work-section" id="experience-section">
+            <div class="section-header">experience</div>
+            <div id="experience-list">
+                <div class="skeleton" style="height:12px; width:70%; margin-bottom:8px"></div>
+                <div class="skeleton" style="height:12px; width:50%; margin-bottom:8px"></div>
+            </div>
+        </div>
+
+        <!-- ── PROJECTS ── -->
+        <div class="work-section" id="projects-section">
+            <div class="section-header">projects</div>
+            <div class="projects-grid" id="projects-list">
+                <div class="skeleton" style="height:60px"></div>
+                <div class="skeleton" style="height:60px"></div>
+                <div class="skeleton" style="height:60px"></div>
+                <div class="skeleton" style="height:60px"></div>
+            </div>
+        </div>
+
+        <!-- ── SKILLS ── -->
+        <div class="work-section" id="skills-section">
+            <div class="section-header">skills</div>
+            <div id="skills-list"></div>
+        </div>
+
+        <!-- ── EDUCATION & CREDENTIALS ── -->
+        <div class="work-section" id="education-section">
+            <div class="section-header">education &amp; credentials</div>
+            <div class="grid-container even">
+                <div class="metadata-list" id="education-list"></div>
+                <div class="metadata-list" id="credentials-list"></div>
+            </div>
+        </div>
+
+        <!-- ── CONTACT ── -->
+        <div class="work-section" id="contact-section">
+            <div class="contact-row" id="contact-row"></div>
+        </div>
+
+    </div>
+
+    <script>
+        const ICONS = {
+            github: '<svg class="icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>',
+            linkedin: '<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-3.37-4-3.11-4 0v5.6h-3v-11h3v1.76c1.4-2.59 7-2.78 7 2.48v6.76z"/></svg>',
+            mail: '<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>',
+            ext: '<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>',
+            download: '<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>'
+        };
+
+        const KEYWORDS = [
+            'LLM-powered', 'LLM', 'GenAI', 'RAG', 'NLP', 'ML',
+            'AI-powered automation', 'data pipelines', 'business intelligence', 'self-service analytics',
+            'LangChain', 'ChromaDB', 'LangGraph', 'LlamaIndex',
+            'In-Context Vector (ICV)', 'In-Context Vectors (ICVs)', 'ICV-based', 'latent-state steering',
+            'SpaCy NER', 'SpaCy', 'NER', 'PII', 'guardrail framework', 'guardrails',
+            'Llama 3.1 8B', 'Mistral 7B', 'GPT-4o', 'GPT-3.5 Turbo', 'GPT', 'Gemini', 'OpenAI', 'ElevenLabs',
+            'Power BI', 'Power Query', 'Python', 'SQL', 'ETL', 'VBA',
+            'AWS', 'Auto Scaling', 'Elastic Load Balancing', 'ELB', 'CloudWatch',
+            'Java/Spring Boot', 'Java', 'Spring Boot', 'microservices', 'RESTful APIs', 'Oracle',
+            'Jenkins CI/CD', 'Jenkins', 'CI/CD', 'JUnit', 'Mockito',
+            'PyTorch CNN', 'PyTorch', 'CNN', 'Librosa', 'DEAM', 'RMSE', 'steganography',
+            'Streamlit', 'AST parsing', 'Mermaid.js', 'tool-calling', 'function calling', 'workflow orchestration',
+            'Go/Next.js', 'Next.js', 'FastAPI', 'Electron', 'NTFS', 'VirusTotal',
+            'NLTK', 'TF-IDF', 'XGBoost', 'Scikit-learn', 'Random Forest', 'Word2Vec', 'Flask', 'Feedforward Neural Network',
+            'HIPAA', 'SOC2', 'hierarchical chunking', 'semantic indexing', 'semantic search', 'embeddings'
+        ].sort((a, b) => b.length - a.length);
+
+        const kwRegex = new RegExp('(^|[^\\w-])(' + KEYWORDS.map(k => k.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&')).join('|') + ')(?![\\w-])', 'g');
+        const numRegex = /(^|[\s(—])(\+?\d+(?:[.,]\d+)*\s?%|\d+(?:,\d{3})*\+|\d+\.\d+)(?=[\s,;.)%]|$)/g;
+
+        function hl(text) {
+            return text
+                .replace(kwRegex, '$1<span class="kw">$2</span>')
+                .replace(numRegex, '$1<span class="kw">$2</span>');
+        }
+
+        async function loadResumeData() {
+            const loader = document.getElementById('top-loader');
+            loader.style.width = '20%';
+            loader.style.opacity = '1';
+
+            try {
+                const response = await fetch('./data/resume.json');
+                if (!response.ok) throw new Error('Failed to load resume data');
+
+                const data = await response.json();
+                loader.style.width = '50%';
+
+                // ── WHY HIRE ME (pitch + receipts)
+                const pitchBlock = document.getElementById('pitch-block');
+                if (pitchBlock) {
+                    pitchBlock.innerHTML = `
+                        <div class="metadata-row">
+                            <div class="section-subtitle">Profile</div>
+                            <div class="pitch-text">${data.pitch}</div>
+                            <div class="pitch-status">${data.status} — ${data.location}</div>
+                            <div class="pitch-links">
+                                <a href="mailto:${data.email}">${ICONS.mail}${data.email}</a>
+                                <a href="https://${data.social.linkedin}" target="_blank">${ICONS.linkedin}${data.social.linkedin}</a>
+                                <a href="https://${data.social.github}" target="_blank">${ICONS.github}${data.social.github}</a>
+                                <a href="assets/resume.pdf" download="Pranshu_Acharya_Resume.pdf">${ICONS.download}download resume (pdf)</a>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                const whyList = document.getElementById('why-list');
+                if (data.stats && whyList) {
+                    const receiptsRow = document.createElement('div');
+                    receiptsRow.className = 'metadata-row';
+                    receiptsRow.innerHTML = `<div class="section-subtitle">By The Numbers</div>`;
+                    data.stats.forEach(stat => {
+                        receiptsRow.innerHTML += `
+                            <div class="metadata-item receipt-item">
+                                <b>${stat.num}</b> <span>— ${stat.proof}</span>
+                            </div>
+                        `;
+                    });
+                    whyList.innerHTML = '';
+                    whyList.appendChild(receiptsRow);
+                }
+
+                // ── EXPERIENCE
+                const expList = document.getElementById('experience-list');
+                if (data.experience && expList) {
+                    expList.innerHTML = '';
+                    data.experience.forEach(exp => {
+                        const item = document.createElement('div');
+                        item.className = 'experience-item';
+                        item.innerHTML = `
+                            <div class="experience-meta">
+                                <div class="experience-date">${exp.date}</div>
+                                <div class="experience-role">${exp.role}</div>
+                                <div class="experience-company">${exp.company} — ${exp.location}</div>
+                            </div>
+                            <div class="experience-body">
+                                <div class="experience-description">${hl(exp.description)}</div>
+                                ${exp.highlights && exp.highlights.length ? `
+                                    <div class="experience-highlights">
+                                        ${exp.highlights.map(h => `<div class="highlight-item">${hl(h)}</div>`).join('')}
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `;
+                        expList.appendChild(item);
+                    });
+                }
+
+                loader.style.width = '75%';
+
+                // ── PROJECTS
+                const projList = document.getElementById('projects-list');
+                if (data.projects && projList) {
+                    projList.innerHTML = data.projects.map(proj => `
+                        <div class="project-item">
+                            <div class="project-tag">${proj.date}</div>
+                            <div class="project-title">
+                                ${proj.link
+                                    ? `<a class="item-link" href="${proj.link}" target="_blank">${proj.title}${ICONS.github}</a>`
+                                    : proj.title}
+                            </div>
+                            <div class="project-subtitle">${proj.subtitle}</div>
+                            <div class="project-description">${hl(proj.description)}</div>
+                        </div>
+                    `).join('');
+                }
+
+                // ── SKILLS (pill shelves)
+                const skillsList = document.getElementById('skills-list');
+                if (data.skills && skillsList) {
+                    skillsList.innerHTML = '';
+                    Object.keys(data.skills).forEach(category => {
+                        const block = document.createElement('div');
+                        block.className = 'skills-block';
+                        block.innerHTML = `
+                            <div class="section-subtitle">${category}</div>
+                            <div class="skills-shelf">
+                                ${data.skills[category].map(skill => `<span class="skill-pill">${skill}</span>`).join('')}
+                            </div>
+                        `;
+                        skillsList.appendChild(block);
+                    });
+                }
+
+                // ── EDUCATION
+                const eduList = document.getElementById('education-list');
+                if (data.education && eduList) {
+                    eduList.innerHTML = `<div class="section-subtitle">Education</div>`;
+                    data.education.forEach(edu => {
+                        eduList.innerHTML += `
+                            <div class="metadata-item" style="margin-bottom:14px">
+                                <b>${edu.school}</b>
+                                <div><span>${edu.degree}</span></div>
+                                <div style="font-size:9px; color:#888">${edu.period} — GPA ${edu.gpa}</div>
+                            </div>
+                        `;
+                    });
+                }
+
+                // ── CREDENTIALS (publications + certifications)
+                const credList = document.getElementById('credentials-list');
+                if (credList) {
+                    credList.innerHTML = '';
+                    if (data.publications) {
+                        credList.innerHTML += `<div class="section-subtitle">Publications</div>`;
+                        data.publications.forEach(pub => {
+                            credList.innerHTML += `
+                                <div class="metadata-item" style="margin-bottom:10px">
+                                    ${pub.link
+                                        ? `<a class="item-link" href="${pub.link}" target="_blank">${pub.title}${ICONS.ext}</a>`
+                                        : `<b>${pub.title}</b>`}
+                                    <span> — ${pub.venue}, ${pub.date}</span>
+                                </div>
+                            `;
+                        });
+                    }
+                    if (data.certifications) {
+                        credList.innerHTML += `<div class="section-subtitle" style="margin-top:20px">Certifications</div>`;
+                        data.certifications.forEach(cert => {
+                            credList.innerHTML += `
+                                <div class="metadata-item" style="margin-bottom:6px">
+                                    <a class="item-link" href="${cert.link}" target="_blank">${cert.name}${ICONS.ext}</a>
+                                </div>
+                            `;
+                        });
+                    }
+                }
+
+                // ── CONTACT
+                const contactRow = document.getElementById('contact-row');
+                if (contactRow) {
+                    contactRow.innerHTML = `
+                        <a href="mailto:${data.email}">${ICONS.mail}${data.email}</a>
+                        <a href="https://${data.social.linkedin}" target="_blank">${ICONS.linkedin}linkedin</a>
+                        <a href="https://${data.social.github}" target="_blank">${ICONS.github}github</a>
+                        <a href="assets/resume.pdf" download="Pranshu_Acharya_Resume.pdf">${ICONS.download}resume</a>
+                        <span>${data.status.toLowerCase()}</span>
+                    `;
+                }
+
+                loader.style.width = '100%';
+                setTimeout(() => {
+                    loader.style.opacity = '0';
+                    setTimeout(() => { loader.style.width = '0'; }, 500);
+                }, 400);
+
+            } catch (error) {
+                console.error('Error loading resume:', error);
+                loader.style.width = '100%';
+                loader.style.background = '#ff4444';
+                setTimeout(() => { loader.style.opacity = '0'; }, 2000);
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', loadResumeData);
+    </script>
+</body>
+
+</html>
