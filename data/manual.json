@@ -1,0 +1,65 @@
+{
+  "books": [
+    {
+      "title": "Children of Time",
+      "author": "Adrian Tchaikovsky",
+      "status": "Reading",
+      "cover": "https://covers.openlibrary.org/b/id/8264706-L.jpg",
+      "link": "https://openlibrary.org/works/OL17373843W"
+    },
+    {
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "status": "Finished",
+      "cover": "https://covers.openlibrary.org/b/id/14612610-L.jpg",
+      "link": "https://openlibrary.org/works/OL46125W"
+    },
+    {
+      "title": "Foundation and Empire",
+      "author": "Isaac Asimov",
+      "status": "Finished",
+      "cover": "https://covers.openlibrary.org/b/id/9300695-L.jpg",
+      "link": "https://openlibrary.org/works/OL46224W"
+    },
+    {
+      "title": "Second Foundation",
+      "author": "Isaac Asimov",
+      "status": "Finished",
+      "cover": "https://covers.openlibrary.org/b/id/9261324-L.jpg",
+      "link": "https://openlibrary.org/works/OL46309W"
+    },
+    {
+      "title": "Foundation's Edge",
+      "author": "Isaac Asimov",
+      "status": "Queue",
+      "cover": "https://covers.openlibrary.org/b/id/6700720-L.jpg",
+      "link": "https://openlibrary.org/works/OL46302W"
+    }
+  ],
+  "games": [
+    {
+      "name": "Pokémon X",
+      "platform": "Nintendo 3DS",
+      "status": "Playing",
+      "cover": "https://media.rawg.io/media/games/753/753f5d584a5f7e69aa4c05dd3b6df7c9.jpg"
+    },
+    {
+      "name": "Pokémon Omega Ruby",
+      "platform": "Nintendo 3DS",
+      "status": "Playing",
+      "cover": "https://media.rawg.io/media/screenshots/47f/47f1aa9b0975820cb5af16b9d263e663.jpg"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 1 + 2",
+      "platform": "PC",
+      "status": "Playing",
+      "cover": "https://media.rawg.io/media/games/088/0885c48293746aad6df30735f30d0836.jpg"
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "platform": "PC",
+      "status": "Playing",
+      "cover": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+    }
+  ]
+}
