@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T08:42:45.782Z",
+  "generatedAt": "2026-07-10T08:38:37.991Z",
   "spotify": {
     "tracks": [
       {
@@ -7,6 +7,12 @@
         "artist": "Gurinder Gill",
         "img": "https://i.scdn.co/image/ab67616d0000b2738a9131f05e549919183f1e13",
         "url": "https://open.spotify.com/track/7JVVLmWTRWDnGpe9W21nx8"
+      },
+      {
+        "name": "Le rêve que j'ai",
+        "artist": "infime",
+        "img": "https://i.scdn.co/image/ab67616d0000b273080b01d8b593b89094140763",
+        "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
       },
       {
         "name": "Maybe I'm the Reason",
@@ -25,12 +31,6 @@
         "artist": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab67616d0000b27319d5cc262be8cda862648426",
         "url": "https://open.spotify.com/track/5WnxvPtkEJ31yXF8ZPwQr2"
-      },
-      {
-        "name": "Le rêve que j'ai",
-        "artist": "infime",
-        "img": "https://i.scdn.co/image/ab67616d0000b273080b01d8b593b89094140763",
-        "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
       },
       {
         "name": "Be Cool",
@@ -68,6 +68,11 @@
         "name": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab6761610000e5eb27e3c8110c8a6d18bf3c1534",
         "url": "https://open.spotify.com/artist/5zbFRbEu3FDkqN4j1awLLO"
+      },
+      {
+        "name": "infime",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
+        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
       },
       {
         "name": "Peter Cat Recording Co.",
@@ -108,11 +113,6 @@
         "name": "sign crushes motorist",
         "img": "https://i.scdn.co/image/ab67616d0000b273db673e5288f81cb962e2b081",
         "url": "https://open.spotify.com/artist/02vrwnrNEeDRV96o9iPSYP"
-      },
-      {
-        "name": "You'll Never Get to Heaven",
-        "img": "https://i.scdn.co/image/9c743f55c4581a5fdc458f8e79f3b4e2f5cf8e57",
-        "url": "https://open.spotify.com/artist/1tHzhv6nGl2i5ZaSSFiwK7"
       }
     ]
   },
