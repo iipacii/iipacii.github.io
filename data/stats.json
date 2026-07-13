@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T07:37:23.741Z",
+  "generatedAt": "2026-07-13T08:27:25.748Z",
   "spotify": {
     "tracks": [
       {
@@ -33,6 +33,12 @@
         "url": "https://open.spotify.com/track/5WnxvPtkEJ31yXF8ZPwQr2"
       },
       {
+        "name": "No Voices",
+        "artist": "infime",
+        "img": "https://i.scdn.co/image/ab67616d0000b273d1008d3c810e93d50140b967",
+        "url": "https://open.spotify.com/track/7yRwLhz1ybHIYP6fEldduW"
+      },
+      {
         "name": "Be Cool",
         "artist": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab67616d0000b27349e772cf22d73f83a4d1e25c",
@@ -55,12 +61,6 @@
         "artist": "Peter Cat Recording Co.",
         "img": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
         "url": "https://open.spotify.com/track/6C5xm2roWdAIda9WJmu1jG"
-      },
-      {
-        "name": "From 98",
-        "artist": "infime",
-        "img": "https://i.scdn.co/image/ab67616d0000b2730f89a96289daf78bf818c9b1",
-        "url": "https://open.spotify.com/track/3gULk6p3DN9bFahGL3d1HY"
       }
     ],
     "artists": [
@@ -70,9 +70,19 @@
         "url": "https://open.spotify.com/artist/5zbFRbEu3FDkqN4j1awLLO"
       },
       {
+        "name": "Kaikobad",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebcd3f6debdb95372dcaf84cfc",
+        "url": "https://open.spotify.com/artist/5lnQetmw5xW1Y1FVKA07Az"
+      },
+      {
         "name": "infime",
         "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
         "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
+      },
+      {
+        "name": "George Ian Hewitt",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb31dbc7a762a7f47dcc1ab4b6",
+        "url": "https://open.spotify.com/artist/2mcQtO7Xg2GvUi8d3QViAg"
       },
       {
         "name": "Peter Cat Recording Co.",
@@ -103,16 +113,6 @@
         "name": "Aphex Twin",
         "img": "https://i.scdn.co/image/ab6761610000e5ebaa3c91d792eb520a5d58daa5",
         "url": "https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG"
-      },
-      {
-        "name": "Men I Trust",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
-        "url": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
-      },
-      {
-        "name": "sign crushes motorist",
-        "img": "https://i.scdn.co/image/ab67616d0000b273db673e5288f81cb962e2b081",
-        "url": "https://open.spotify.com/artist/02vrwnrNEeDRV96o9iPSYP"
       }
     ]
   },
