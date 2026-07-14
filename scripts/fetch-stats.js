@@ -68,8 +68,8 @@ const fetchSpotify = async () => {
     ]);
 
     return {
-        tracks: tracksRes.data.items.map(t => ({ name: t.name, artist: t.artists[0].name, img: t.album.images[0].url, url: t.external_urls.spotify })),
-        artists: artistsRes.data.items.map(a => ({ name: a.name, img: a.images[0].url, url: a.external_urls.spotify }))
+        tracks: tracksRes.data.items.map(t => ({ name: t.name, artist: t.artists[0].name, img: t.album.images[0]?.url || null, url: t.external_urls.spotify })),
+        artists: artistsRes.data.items.map(a => ({ name: a.name, img: a.images[0]?.url || null, url: a.external_urls.spotify }))
     };
 };
 
@@ -127,7 +127,9 @@ const fetchLetterboxd = async () => {
         const posterUrl = match ? match[1] : null;
 
         return {
-            title: item.title.split(',')[0].replace(starRegex, '').trim(),
+            // RSS titles look like "I, Tonya, 2017 - ★★★★" — strip the trailing
+            // ", YYYY - rating" rather than splitting on the first comma
+            title: item.title.replace(/,\s*\d{4}(\s*-\s*.*)?$/, '').replace(starRegex, '').trim(),
             rating,
             poster: posterUrl,
             link: item.link,
