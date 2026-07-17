@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T07:31:29.079Z",
+  "generatedAt": "2026-07-17T18:16:34.755Z",
   "spotify": {
     "tracks": [
       {
@@ -141,6 +141,13 @@
     ],
     "activity": [
       {
+        "title": "The Odyssey",
+        "rating": "★★★★",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
+        "link": "https://letterboxd.com/iipacii/film/the-odyssey-2026/",
+        "watchedDate": "Sat, 18 Jul 2026 05:43:35 +1200"
+      },
+      {
         "title": "Supergirl",
         "rating": "★★",
         "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/4/2/8/6/974286-supergirl-2026-0-600-0-900-crop.jpg?v=e85ddf39db",
@@ -216,13 +223,6 @@
         "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/8/5/8/7/1308587-hokum-0-600-0-900-crop.jpg?v=29deb57767",
         "link": "https://letterboxd.com/iipacii/film/hokum/",
         "watchedDate": "Thu, 14 May 2026 11:34:39 +1200"
-      },
-      {
-        "title": "Cinema Paradiso",
-        "rating": "★★★★★",
-        "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/4/9/3/45493-cinema-paradiso-0-600-0-900-crop.jpg?v=8e66264ed4",
-        "link": "https://letterboxd.com/iipacii/film/cinema-paradiso/",
-        "watchedDate": "Mon, 27 Apr 2026 08:27:45 +1200"
       }
     ]
   },
