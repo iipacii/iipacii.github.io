@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-07-19T18:06:21.750Z",
+  "generatedAt": "2026-07-20T08:17:13.049Z",
   "spotify": {
     "tracks": [
-      {
-        "name": "LOUNGE",
-        "artist": "Gurinder Gill",
-        "img": "https://i.scdn.co/image/ab67616d0000b2738a9131f05e549919183f1e13",
-        "url": "https://open.spotify.com/track/7JVVLmWTRWDnGpe9W21nx8"
-      },
       {
         "name": "Le rêve que j'ai",
         "artist": "infime",
@@ -15,16 +9,22 @@
         "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
       },
       {
-        "name": "Hold on to It - Jonny Nash Remix",
-        "artist": "B.J. Smith",
-        "img": "https://i.scdn.co/image/ab67616d0000b273689320a2ebb9cdecd9d55742",
-        "url": "https://open.spotify.com/track/58Xx9TFP4WDdhYT5BXpDWk"
+        "name": "LOUNGE",
+        "artist": "Gurinder Gill",
+        "img": "https://i.scdn.co/image/ab67616d0000b2738a9131f05e549919183f1e13",
+        "url": "https://open.spotify.com/track/7JVVLmWTRWDnGpe9W21nx8"
       },
       {
         "name": "Maybe I'm the Reason",
         "artist": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab67616d0000b27349e772cf22d73f83a4d1e25c",
         "url": "https://open.spotify.com/track/1TPCNPlitIbnPjJfL8TjC4"
+      },
+      {
+        "name": "Hold on to It - Jonny Nash Remix",
+        "artist": "B.J. Smith",
+        "img": "https://i.scdn.co/image/ab67616d0000b273689320a2ebb9cdecd9d55742",
+        "url": "https://open.spotify.com/track/58Xx9TFP4WDdhYT5BXpDWk"
       },
       {
         "name": "eat the pavement",
@@ -95,11 +95,6 @@
         "url": "https://open.spotify.com/artist/60d24wfXkVzDSfLS6hyCjZ"
       },
       {
-        "name": "KAYTRANADA",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb9b9d4fdf5e4cf58e2fa93167",
-        "url": "https://open.spotify.com/artist/6qgnBH6iDM91ipVXv28OMu"
-      },
-      {
         "name": "Aphex Twin",
         "img": "https://i.scdn.co/image/ab6761610000e5ebaa3c91d792eb520a5d58daa5",
         "url": "https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG"
@@ -110,9 +105,14 @@
         "url": "https://open.spotify.com/artist/4CvTDPKA6W06DRfBnZKrau"
       },
       {
-        "name": "Disclosure",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb0b084ede947f009beade9a6a",
-        "url": "https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et"
+        "name": "Men I Trust",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
+        "url": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
+      },
+      {
+        "name": "sign crushes motorist",
+        "img": "https://i.scdn.co/image/ab67616d0000b273db673e5288f81cb962e2b081",
+        "url": "https://open.spotify.com/artist/02vrwnrNEeDRV96o9iPSYP"
       }
     ]
   },
