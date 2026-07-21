@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T19:05:47.763Z",
+  "generatedAt": "2026-07-21T07:41:57.627Z",
   "spotify": {
     "tracks": [
       {
@@ -15,22 +15,28 @@
         "url": "https://open.spotify.com/track/7JVVLmWTRWDnGpe9W21nx8"
       },
       {
-        "name": "Hold on to It - Jonny Nash Remix",
-        "artist": "B.J. Smith",
-        "img": "https://i.scdn.co/image/ab67616d0000b273689320a2ebb9cdecd9d55742",
-        "url": "https://open.spotify.com/track/58Xx9TFP4WDdhYT5BXpDWk"
-      },
-      {
         "name": "Maybe I'm the Reason",
         "artist": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab67616d0000b27349e772cf22d73f83a4d1e25c",
         "url": "https://open.spotify.com/track/1TPCNPlitIbnPjJfL8TjC4"
       },
       {
+        "name": "Hold on to It - Jonny Nash Remix",
+        "artist": "B.J. Smith",
+        "img": "https://i.scdn.co/image/ab67616d0000b273689320a2ebb9cdecd9d55742",
+        "url": "https://open.spotify.com/track/58Xx9TFP4WDdhYT5BXpDWk"
+      },
+      {
         "name": "eat the pavement",
         "artist": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab67616d0000b27319d5cc262be8cda862648426",
         "url": "https://open.spotify.com/track/5WnxvPtkEJ31yXF8ZPwQr2"
+      },
+      {
+        "name": "Wichita Lineman - Remastered 2001",
+        "artist": "Glen Campbell",
+        "img": "https://i.scdn.co/image/ab67616d0000b273b367fb90309a051f8aaacc9a",
+        "url": "https://open.spotify.com/track/6V9VCm1zOY2lGR80RehJ9i"
       },
       {
         "name": "No Voices",
@@ -55,12 +61,6 @@
         "artist": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab67616d0000b27314d5753243fa597afda562fd",
         "url": "https://open.spotify.com/track/6CoI7ShM7sdkR8RNEHsB3X"
-      },
-      {
-        "name": "Wichita Lineman - Remastered 2001",
-        "artist": "Glen Campbell",
-        "img": "https://i.scdn.co/image/ab67616d0000b273b367fb90309a051f8aaacc9a",
-        "url": "https://open.spotify.com/track/6V9VCm1zOY2lGR80RehJ9i"
       }
     ],
     "artists": [
@@ -78,6 +78,11 @@
         "name": "infime",
         "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
         "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
+      },
+      {
+        "name": "Ludwig Göransson",
+        "img": "https://i.scdn.co/image/e7a97b420e09f4f125cd3e14fca5e7ea174e74e0",
+        "url": "https://open.spotify.com/artist/24eDfi2MSYo3A87hCcgpIL"
       },
       {
         "name": "George Ian Hewitt",
@@ -108,11 +113,6 @@
         "name": "Men I Trust",
         "img": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
         "url": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
-      },
-      {
-        "name": "sign crushes motorist",
-        "img": "https://i.scdn.co/image/ab67616d0000b273db673e5288f81cb962e2b081",
-        "url": "https://open.spotify.com/artist/02vrwnrNEeDRV96o9iPSYP"
       }
     ]
   },
