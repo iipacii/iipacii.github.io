@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:42:18.538Z",
+  "generatedAt": "2026-07-22T18:20:25.552Z",
   "spotify": {
     "tracks": [
       {
@@ -27,16 +27,16 @@
         "url": "https://open.spotify.com/track/6V9VCm1zOY2lGR80RehJ9i"
       },
       {
-        "name": "eat the pavement",
-        "artist": "Dev Lemons",
-        "img": "https://i.scdn.co/image/ab67616d0000b27319d5cc262be8cda862648426",
-        "url": "https://open.spotify.com/track/5WnxvPtkEJ31yXF8ZPwQr2"
-      },
-      {
         "name": "Ithaca",
         "artist": "Ludwig Göransson",
         "img": "https://i.scdn.co/image/ab67616d0000b273bf5606605d62f131a62ec5b2",
         "url": "https://open.spotify.com/track/7uXHip6O0uQHqHrewyUctI"
+      },
+      {
+        "name": "eat the pavement",
+        "artist": "Dev Lemons",
+        "img": "https://i.scdn.co/image/ab67616d0000b27319d5cc262be8cda862648426",
+        "url": "https://open.spotify.com/track/5WnxvPtkEJ31yXF8ZPwQr2"
       },
       {
         "name": "No Voices",
@@ -65,6 +65,11 @@
     ],
     "artists": [
       {
+        "name": "Ludwig Göransson",
+        "img": "https://i.scdn.co/image/e7a97b420e09f4f125cd3e14fca5e7ea174e74e0",
+        "url": "https://open.spotify.com/artist/24eDfi2MSYo3A87hCcgpIL"
+      },
+      {
         "name": "Kaikobad",
         "img": "https://i.scdn.co/image/ab6761610000e5ebcd3f6debdb95372dcaf84cfc",
         "url": "https://open.spotify.com/artist/5lnQetmw5xW1Y1FVKA07Az"
@@ -78,11 +83,6 @@
         "name": "infime",
         "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
         "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
-      },
-      {
-        "name": "Ludwig Göransson",
-        "img": "https://i.scdn.co/image/e7a97b420e09f4f125cd3e14fca5e7ea174e74e0",
-        "url": "https://open.spotify.com/artist/24eDfi2MSYo3A87hCcgpIL"
       },
       {
         "name": "George Ian Hewitt",
@@ -141,11 +141,11 @@
     ],
     "activity": [
       {
-        "title": "Neon Genesis Evangelion: Death and Rebirth",
-        "rating": "★★★★",
-        "poster": "https://a.ltrbxd.com/resized/film-poster/5/5/9/6/3/55963-neon-genesis-evangelion-death-and-rebirth-0-600-0-900-crop.jpg?v=338c9e1ad7",
-        "link": "https://letterboxd.com/iipacii/film/neon-genesis-evangelion-death-and-rebirth/",
-        "watchedDate": "Wed, 22 Jul 2026 15:55:34 +1200"
+        "title": "EVANGELION: DEATH (TRUE)²",
+        "rating": "★★★½",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/7/7/2/1/4/3/772143-evangelion-death-true--0-600-0-900-crop.jpg?v=770c8fec87",
+        "link": "https://letterboxd.com/iipacii/film/evangelion-death-true/",
+        "watchedDate": "Thu, 23 Jul 2026 05:10:03 +1200"
       },
       {
         "title": "The Odyssey",
