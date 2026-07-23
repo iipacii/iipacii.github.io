@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:43:57.173Z",
+  "generatedAt": "2026-07-23T18:22:12.934Z",
   "spotify": {
     "tracks": [
       {
@@ -100,19 +100,19 @@
         "url": "https://open.spotify.com/artist/60d24wfXkVzDSfLS6hyCjZ"
       },
       {
+        "name": "Shroomyland",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
+        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
+      },
+      {
         "name": "Aphex Twin",
         "img": "https://i.scdn.co/image/ab6761610000e5ebaa3c91d792eb520a5d58daa5",
         "url": "https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG"
       },
       {
-        "name": "Slowdive",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb653481f50df3c11791d6132a",
-        "url": "https://open.spotify.com/artist/72X6FHxaShda0XeQw3vbeF"
-      },
-      {
-        "name": "Men I Trust",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
-        "url": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
+        "name": "Tape Arcade",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb2dfc53541307f0ad7325e91a",
+        "url": "https://open.spotify.com/artist/3eQUoS0IraZAK6IzzmRdaO"
       }
     ]
   },
