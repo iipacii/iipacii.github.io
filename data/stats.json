@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:22:12.934Z",
+  "generatedAt": "2026-07-25T07:27:28.462Z",
   "spotify": {
     "tracks": [
       {
@@ -141,6 +141,20 @@
     ],
     "activity": [
       {
+        "title": "Nirvanna the Band the Show the Movie",
+        "rating": "★★★★★",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/4/1/0/1/2/1041012-nirvanna-the-band-the-show-the-movie-0-600-0-900-crop.jpg?v=4d80f82f8a",
+        "link": "https://letterboxd.com/iipacii/film/nirvanna-the-band-the-show-the-movie/3/",
+        "watchedDate": "Sat, 25 Jul 2026 16:23:58 +1200"
+      },
+      {
+        "title": "Evil Dead Burn",
+        "rating": "★★★",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/9/7/0/2/2/1097022-evil-dead-burn-0-600-0-900-crop.jpg?v=398ff82d46",
+        "link": "https://letterboxd.com/iipacii/film/evil-dead-burn/",
+        "watchedDate": "Sat, 25 Jul 2026 16:23:37 +1200"
+      },
+      {
         "title": "Neon Genesis Evangelion: The End of Evangelion",
         "rating": "★★★★½",
         "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/3/1/1/40311-neon-genesis-evangelion-the-end-of-evangelion-0-600-0-900-crop.jpg?v=3f8b0ad85b",
@@ -209,20 +223,6 @@
         "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/8/9/0/51890-oceans-eleven-2001-0-600-0-900-crop.jpg?v=9986b9227a",
         "link": "https://letterboxd.com/iipacii/film/oceans-eleven-2001/",
         "watchedDate": "Wed, 10 Jun 2026 09:56:43 +1200"
-      },
-      {
-        "title": "Backrooms",
-        "rating": "★★★★",
-        "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/6/4/1/9/976419-backrooms-2026-0-600-0-900-crop.jpg?v=f7a99e3fc8",
-        "link": "https://letterboxd.com/iipacii/film/backrooms-2026/",
-        "watchedDate": "Thu, 4 Jun 2026 14:49:08 +1200"
-      },
-      {
-        "title": "Infernal Affairs",
-        "rating": "★★★½",
-        "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/9/0/8/45908-infernal-affairs-0-600-0-900-crop.jpg?v=f6104055a1",
-        "link": "https://letterboxd.com/iipacii/film/infernal-affairs/",
-        "watchedDate": "Wed, 27 May 2026 16:05:51 +1200"
       }
     ]
   },
