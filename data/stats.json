@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T07:27:28.462Z",
+  "generatedAt": "2026-07-28T07:46:44.220Z",
   "spotify": {
     "tracks": [
       {
@@ -7,12 +7,6 @@
         "artist": "infime",
         "img": "https://i.scdn.co/image/ab67616d0000b273080b01d8b593b89094140763",
         "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
-      },
-      {
-        "name": "Maybe I'm the Reason",
-        "artist": "Dev Lemons",
-        "img": "https://i.scdn.co/image/ab67616d0000b27349e772cf22d73f83a4d1e25c",
-        "url": "https://open.spotify.com/track/1TPCNPlitIbnPjJfL8TjC4"
       },
       {
         "name": "Wichita Lineman - Remastered 2001",
@@ -25,12 +19,6 @@
         "artist": "Ludwig Göransson",
         "img": "https://i.scdn.co/image/ab67616d0000b273bf5606605d62f131a62ec5b2",
         "url": "https://open.spotify.com/track/7uXHip6O0uQHqHrewyUctI"
-      },
-      {
-        "name": "eat the pavement",
-        "artist": "Dev Lemons",
-        "img": "https://i.scdn.co/image/ab67616d0000b27319d5cc262be8cda862648426",
-        "url": "https://open.spotify.com/track/5WnxvPtkEJ31yXF8ZPwQr2"
       },
       {
         "name": "Hold on to It - Jonny Nash Remix",
@@ -57,10 +45,22 @@
         "url": "https://open.spotify.com/track/2NHkwSwm6C6eAX3z6xm7Uy"
       },
       {
-        "name": "Be Cool",
-        "artist": "Dev Lemons",
-        "img": "https://i.scdn.co/image/ab67616d0000b27349e772cf22d73f83a4d1e25c",
-        "url": "https://open.spotify.com/track/2p1C7jhtuWgJx1zlUzlQx7"
+        "name": "Zeus’s Law",
+        "artist": "Ludwig Göransson",
+        "img": "https://i.scdn.co/image/ab67616d0000b273bf5606605d62f131a62ec5b2",
+        "url": "https://open.spotify.com/track/1kHHqmE1e2JkKemPQvxLMw"
+      },
+      {
+        "name": "Memory Box",
+        "artist": "Peter Cat Recording Co.",
+        "img": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
+        "url": "https://open.spotify.com/track/6C5xm2roWdAIda9WJmu1jG"
+      },
+      {
+        "name": "LOUNGE",
+        "artist": "Gurinder Gill",
+        "img": "https://i.scdn.co/image/ab67616d0000b2738a9131f05e549919183f1e13",
+        "url": "https://open.spotify.com/track/7JVVLmWTRWDnGpe9W21nx8"
       }
     ],
     "artists": [
@@ -73,11 +73,6 @@
         "name": "Kaikobad",
         "img": "https://i.scdn.co/image/ab6761610000e5ebcd3f6debdb95372dcaf84cfc",
         "url": "https://open.spotify.com/artist/5lnQetmw5xW1Y1FVKA07Az"
-      },
-      {
-        "name": "Dev Lemons",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb27e3c8110c8a6d18bf3c1534",
-        "url": "https://open.spotify.com/artist/5zbFRbEu3FDkqN4j1awLLO"
       },
       {
         "name": "infime",
@@ -113,6 +108,11 @@
         "name": "Tape Arcade",
         "img": "https://i.scdn.co/image/ab6761610000e5eb2dfc53541307f0ad7325e91a",
         "url": "https://open.spotify.com/artist/3eQUoS0IraZAK6IzzmRdaO"
+      },
+      {
+        "name": "Men I Trust",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
+        "url": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
       }
     ]
   },
