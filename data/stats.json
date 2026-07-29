@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T18:43:11.902Z",
+  "generatedAt": "2026-07-29T07:51:48.629Z",
   "spotify": {
     "tracks": [
       {
@@ -101,7 +101,7 @@
       },
       {
         "name": "Aphex Twin",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebaa3c91d792eb520a5d58daa5",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebeb89035b7c0d65720926d511",
         "url": "https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG"
       },
       {
@@ -110,9 +110,9 @@
         "url": "https://open.spotify.com/artist/3eQUoS0IraZAK6IzzmRdaO"
       },
       {
-        "name": "Thom Yorke",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb053f1578c9af7fd66c97dba0",
-        "url": "https://open.spotify.com/artist/4CvTDPKA6W06DRfBnZKrau"
+        "name": "Radiohead",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59",
+        "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb"
       }
     ]
   },
