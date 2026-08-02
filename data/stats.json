@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T07:37:22.531Z",
+  "generatedAt": "2026-08-02T07:40:15.110Z",
   "spotify": {
     "tracks": [
       {
@@ -27,6 +27,18 @@
         "url": "https://open.spotify.com/track/4z9KVNX4hmk672SJfhtQNz"
       },
       {
+        "name": "Mrs Magic",
+        "artist": "Strawberry Guy",
+        "img": "https://i.scdn.co/image/ab67616d0000b2734695126ef47156001851e95c",
+        "url": "https://open.spotify.com/track/0TZejo18HlJ86OrWNsXKnw"
+      },
+      {
+        "name": "Sun Outside My Window",
+        "artist": "Strawberry Guy",
+        "img": "https://i.scdn.co/image/ab67616d0000b273c8ed155c56e641dad4fcce76",
+        "url": "https://open.spotify.com/track/5fCqHoueAR1Q790mPKj1HR"
+      },
+      {
         "name": "No Voices",
         "artist": "infime",
         "img": "https://i.scdn.co/image/ab67616d0000b273d1008d3c810e93d50140b967",
@@ -49,18 +61,6 @@
         "artist": "infime",
         "img": "https://i.scdn.co/image/ab67616d0000b2730f89a96289daf78bf818c9b1",
         "url": "https://open.spotify.com/track/3gULk6p3DN9bFahGL3d1HY"
-      },
-      {
-        "name": "Hold on to It - Jonny Nash Remix",
-        "artist": "B.J. Smith",
-        "img": "https://i.scdn.co/image/ab67616d0000b273689320a2ebb9cdecd9d55742",
-        "url": "https://open.spotify.com/track/58Xx9TFP4WDdhYT5BXpDWk"
-      },
-      {
-        "name": "Café à l'italienne",
-        "artist": "infime",
-        "img": "https://i.scdn.co/image/ab67616d0000b273a3cc873ba2f83ca0e5b52005",
-        "url": "https://open.spotify.com/track/61t6NTH0sCXxOwgGsyHBZd"
       }
     ],
     "artists": [
@@ -75,14 +75,14 @@
         "url": "https://open.spotify.com/artist/5lnQetmw5xW1Y1FVKA07Az"
       },
       {
-        "name": "infime",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
-        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
-      },
-      {
         "name": "Strawberry Guy",
         "img": "https://i.scdn.co/image/ab6761610000e5eb7ac4cc120d86b3e14bc0a4cd",
         "url": "https://open.spotify.com/artist/1AbJ2cmwK400LSvdvBL5Jc"
+      },
+      {
+        "name": "infime",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
+        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
       },
       {
         "name": "George Ian Hewitt",
@@ -100,6 +100,11 @@
         "url": "https://open.spotify.com/artist/60d24wfXkVzDSfLS6hyCjZ"
       },
       {
+        "name": "PREP",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb4412c54134e8bbf2583cc618",
+        "url": "https://open.spotify.com/artist/31SBgHxc8eqZUk9MdveH42"
+      },
+      {
         "name": "Shroomyland",
         "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
         "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
@@ -108,11 +113,6 @@
         "name": "Tape Arcade",
         "img": "https://i.scdn.co/image/ab6761610000e5eb2dfc53541307f0ad7325e91a",
         "url": "https://open.spotify.com/artist/3eQUoS0IraZAK6IzzmRdaO"
-      },
-      {
-        "name": "Men I Trust",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
-        "url": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
       }
     ]
   },
