@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:21:27.547Z",
+  "generatedAt": "2026-08-10T18:01:33.637Z",
   "spotify": {
     "tracks": [
       {
@@ -80,11 +80,6 @@
         "url": "https://open.spotify.com/artist/5lnQetmw5xW1Y1FVKA07Az"
       },
       {
-        "name": "infime",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
-        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
-      },
-      {
         "name": "Disco Inferno",
         "img": "https://i.scdn.co/image/ab67616d0000b273c18523dd3450d47444d14e70",
         "url": "https://open.spotify.com/artist/1YCFvBoIeRSc0HMU7fhUZA"
@@ -98,6 +93,11 @@
         "name": "Dream, Ivory",
         "img": "https://i.scdn.co/image/ab6761610000e5eb04c826847b22b97922a54556",
         "url": "https://open.spotify.com/artist/0qZyvjwZauLmrobrpJmvib"
+      },
+      {
+        "name": "infime",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
+        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
       },
       {
         "name": "Tape Arcade",
