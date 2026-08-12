@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T06:40:10.656Z",
+  "generatedAt": "2026-08-12T18:04:58.151Z",
   "spotify": {
     "tracks": [
       {
@@ -95,6 +95,11 @@
         "url": "https://open.spotify.com/artist/0qZyvjwZauLmrobrpJmvib"
       },
       {
+        "name": "Shroomyland",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
+        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
+      },
+      {
         "name": "infime",
         "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
         "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
@@ -108,11 +113,6 @@
         "name": "Tape Arcade",
         "img": "https://i.scdn.co/image/ab6761610000e5eb2dfc53541307f0ad7325e91a",
         "url": "https://open.spotify.com/artist/3eQUoS0IraZAK6IzzmRdaO"
-      },
-      {
-        "name": "ESPRIT 空想",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb4205564ba1357895fc307c33",
-        "url": "https://open.spotify.com/artist/6eDKMXn3OBIkI8jcY7JtlI"
       }
     ]
   },
