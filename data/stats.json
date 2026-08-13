@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:04:58.151Z",
+  "generatedAt": "2026-08-13T06:42:52.191Z",
   "spotify": {
     "tracks": [
       {
@@ -39,16 +39,16 @@
         "url": "https://open.spotify.com/track/0TZejo18HlJ86OrWNsXKnw"
       },
       {
-        "name": "Le rêve que j'ai",
-        "artist": "infime",
-        "img": "https://i.scdn.co/image/ab67616d0000b273080b01d8b593b89094140763",
-        "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
-      },
-      {
         "name": "Sun Outside My Window",
         "artist": "Strawberry Guy",
         "img": "https://i.scdn.co/image/ab67616d0000b273c8ed155c56e641dad4fcce76",
         "url": "https://open.spotify.com/track/5fCqHoueAR1Q790mPKj1HR"
+      },
+      {
+        "name": "Le rêve que j'ai",
+        "artist": "infime",
+        "img": "https://i.scdn.co/image/ab67616d0000b273080b01d8b593b89094140763",
+        "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
       },
       {
         "name": "Zeus’s Law",
@@ -105,14 +105,14 @@
         "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
       },
       {
+        "name": "Meanetik",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb79daf574a7890f0817afcad8",
+        "url": "https://open.spotify.com/artist/1UgN7n2FZqB48m0Eh2w0HE"
+      },
+      {
         "name": "KAYTRANADA",
         "img": "https://i.scdn.co/image/ab6761610000e5eb9b9d4fdf5e4cf58e2fa93167",
         "url": "https://open.spotify.com/artist/6qgnBH6iDM91ipVXv28OMu"
-      },
-      {
-        "name": "Tape Arcade",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb2dfc53541307f0ad7325e91a",
-        "url": "https://open.spotify.com/artist/3eQUoS0IraZAK6IzzmRdaO"
       }
     ]
   },
