@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T05:44:25.096Z",
+  "generatedAt": "2026-08-19T17:37:27.984Z",
   "spotify": {
     "tracks": [
       {
@@ -70,9 +70,14 @@
         "url": "https://open.spotify.com/artist/1AbJ2cmwK400LSvdvBL5Jc"
       },
       {
-        "name": "Ludwig Göransson",
-        "img": "https://i.scdn.co/image/e7a97b420e09f4f125cd3e14fca5e7ea174e74e0",
-        "url": "https://open.spotify.com/artist/24eDfi2MSYo3A87hCcgpIL"
+        "name": "infime",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
+        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
+      },
+      {
+        "name": "Shroomyland",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
+        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
       },
       {
         "name": "Disco Inferno",
@@ -85,11 +90,6 @@
         "url": "https://open.spotify.com/artist/1UgN7n2FZqB48m0Eh2w0HE"
       },
       {
-        "name": "Shroomyland",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
-        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
-      },
-      {
         "name": "PREP",
         "img": "https://i.scdn.co/image/ab6761610000e5eb4412c54134e8bbf2583cc618",
         "url": "https://open.spotify.com/artist/31SBgHxc8eqZUk9MdveH42"
@@ -100,9 +100,9 @@
         "url": "https://open.spotify.com/artist/0qZyvjwZauLmrobrpJmvib"
       },
       {
-        "name": "infime",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
-        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
+        "name": "Bishu",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb19cbead22f5281d682cf224f",
+        "url": "https://open.spotify.com/artist/1DzQInbDVhE9Lh5s6T0DUL"
       },
       {
         "name": "KAYTRANADA",
