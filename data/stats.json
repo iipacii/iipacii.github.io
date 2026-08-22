@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T05:46:02.933Z",
+  "generatedAt": "2026-08-22T05:39:38.661Z",
   "spotify": {
     "tracks": [
       {
@@ -57,10 +57,10 @@
         "url": "https://open.spotify.com/track/5f47c5yJgmqFlYCGMrHG3D"
       },
       {
-        "name": "Who's Got You Singing Again",
-        "artist": "PREP",
-        "img": "https://i.scdn.co/image/ab67616d0000b2738cee2e6e4b9fd15db643e238",
-        "url": "https://open.spotify.com/track/3w9pwYmODaL6mzWZQ8MHoV"
+        "name": "Almost Home",
+        "artist": "Meanetik",
+        "img": "https://i.scdn.co/image/ab67616d0000b273a6184d320a1ea3723072ac11",
+        "url": "https://open.spotify.com/track/0BB4EwDcf5QpPH32MnF0VG"
       }
     ],
     "artists": [
@@ -110,9 +110,9 @@
         "url": "https://open.spotify.com/artist/008OLJeMPEeLp6Rc1bcWAl"
       },
       {
-        "name": "Meanetik",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb79daf574a7890f0817afcad8",
-        "url": "https://open.spotify.com/artist/1UgN7n2FZqB48m0Eh2w0HE"
+        "name": "Froman",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebeec5f55295e69e20990a4732",
+        "url": "https://open.spotify.com/artist/2XmYUy3NJHRuT3hBb8IS76"
       }
     ]
   },
