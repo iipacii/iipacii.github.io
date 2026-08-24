@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:32:30.958Z",
+  "generatedAt": "2026-08-24T17:44:31.053Z",
   "spotify": {
     "tracks": [
       {
@@ -33,16 +33,16 @@
         "url": "https://open.spotify.com/track/5fCqHoueAR1Q790mPKj1HR"
       },
       {
-        "name": "Blue (Da Ba Dee) - Gabry Ponte Video Edit",
-        "artist": "Eiffel 65",
-        "img": "https://i.scdn.co/image/ab67616d0000b273121c39c86d8b05c14022edfe",
-        "url": "https://open.spotify.com/track/7lMIJ4EFWRVoAIPDpeGyM3"
-      },
-      {
         "name": "No Voices",
         "artist": "infime",
         "img": "https://i.scdn.co/image/ab67616d0000b273d1008d3c810e93d50140b967",
         "url": "https://open.spotify.com/track/7yRwLhz1ybHIYP6fEldduW"
+      },
+      {
+        "name": "Blue (Da Ba Dee) - Gabry Ponte Video Edit",
+        "artist": "Eiffel 65",
+        "img": "https://i.scdn.co/image/ab67616d0000b273121c39c86d8b05c14022edfe",
+        "url": "https://open.spotify.com/track/7lMIJ4EFWRVoAIPDpeGyM3"
       },
       {
         "name": "Almost Home",
@@ -51,16 +51,16 @@
         "url": "https://open.spotify.com/track/0BB4EwDcf5QpPH32MnF0VG"
       },
       {
+        "name": "Le rêve que j'ai",
+        "artist": "infime",
+        "img": "https://i.scdn.co/image/ab67616d0000b273080b01d8b593b89094140763",
+        "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
+      },
+      {
         "name": "Sometimes I Wonder",
         "artist": "Dream, Ivory",
         "img": "https://i.scdn.co/image/ab67616d0000b273b405027d5b63acb6945f3beb",
         "url": "https://open.spotify.com/track/0iKLueOVAQckHVMqBYOx9B"
-      },
-      {
-        "name": "Sobremesa",
-        "artist": "Palmate",
-        "img": "https://i.scdn.co/image/ab67616d0000b273f5c41b5a029ec5b10a3cc667",
-        "url": "https://open.spotify.com/track/5f47c5yJgmqFlYCGMrHG3D"
       }
     ],
     "artists": [
@@ -105,14 +105,14 @@
         "url": "https://open.spotify.com/artist/1DzQInbDVhE9Lh5s6T0DUL"
       },
       {
+        "name": "Tokyo Tea Room",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb435b1a87fad7698734474eca",
+        "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
+      },
+      {
         "name": "KAYTRANADA",
         "img": "https://i.scdn.co/image/ab6761610000e5eb9b9d4fdf5e4cf58e2fa93167",
         "url": "https://open.spotify.com/artist/6qgnBH6iDM91ipVXv28OMu"
-      },
-      {
-        "name": "TRAVEL BUREAU",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebf5651d6e3c4a7369876bf33f",
-        "url": "https://open.spotify.com/artist/008OLJeMPEeLp6Rc1bcWAl"
       }
     ]
   },
