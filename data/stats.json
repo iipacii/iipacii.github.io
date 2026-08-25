@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:44:31.053Z",
+  "generatedAt": "2026-08-25T05:45:31.488Z",
   "spotify": {
     "tracks": [
       {
@@ -21,16 +21,16 @@
         "url": "https://open.spotify.com/track/0OblxGfTmtALWjImtm7DFd"
       },
       {
+        "name": "Nobody's Perfect",
+        "artist": "Tokyo Tea Room",
+        "img": "https://i.scdn.co/image/ab67616d0000b273ff7263893739d89c0faf32b2",
+        "url": "https://open.spotify.com/track/4r1yQfwjeQL9xrX1fbOdsD"
+      },
+      {
         "name": "Mrs Magic",
         "artist": "Strawberry Guy",
         "img": "https://i.scdn.co/image/ab67616d0000b2734695126ef47156001851e95c",
         "url": "https://open.spotify.com/track/0TZejo18HlJ86OrWNsXKnw"
-      },
-      {
-        "name": "Sun Outside My Window",
-        "artist": "Strawberry Guy",
-        "img": "https://i.scdn.co/image/ab67616d0000b273c8ed155c56e641dad4fcce76",
-        "url": "https://open.spotify.com/track/5fCqHoueAR1Q790mPKj1HR"
       },
       {
         "name": "No Voices",
@@ -39,28 +39,28 @@
         "url": "https://open.spotify.com/track/7yRwLhz1ybHIYP6fEldduW"
       },
       {
+        "name": "Sun Outside My Window",
+        "artist": "Strawberry Guy",
+        "img": "https://i.scdn.co/image/ab67616d0000b273c8ed155c56e641dad4fcce76",
+        "url": "https://open.spotify.com/track/5fCqHoueAR1Q790mPKj1HR"
+      },
+      {
         "name": "Blue (Da Ba Dee) - Gabry Ponte Video Edit",
         "artist": "Eiffel 65",
         "img": "https://i.scdn.co/image/ab67616d0000b273121c39c86d8b05c14022edfe",
         "url": "https://open.spotify.com/track/7lMIJ4EFWRVoAIPDpeGyM3"
       },
       {
+        "name": "silk",
+        "artist": "TRAVEL BUREAU",
+        "img": "https://i.scdn.co/image/ab67616d0000b2733f62bd711d6a7e1f44e5638f",
+        "url": "https://open.spotify.com/track/2StoHVfWZGwrAKq3wDoHQb"
+      },
+      {
         "name": "Almost Home",
         "artist": "Meanetik",
         "img": "https://i.scdn.co/image/ab67616d0000b273a6184d320a1ea3723072ac11",
         "url": "https://open.spotify.com/track/0BB4EwDcf5QpPH32MnF0VG"
-      },
-      {
-        "name": "Le rêve que j'ai",
-        "artist": "infime",
-        "img": "https://i.scdn.co/image/ab67616d0000b273080b01d8b593b89094140763",
-        "url": "https://open.spotify.com/track/5M286bRWR3iTwx8Owu9yQD"
-      },
-      {
-        "name": "Sometimes I Wonder",
-        "artist": "Dream, Ivory",
-        "img": "https://i.scdn.co/image/ab67616d0000b273b405027d5b63acb6945f3beb",
-        "url": "https://open.spotify.com/track/0iKLueOVAQckHVMqBYOx9B"
       }
     ],
     "artists": [
@@ -68,6 +68,11 @@
         "name": "Strawberry Guy",
         "img": "https://i.scdn.co/image/ab6761610000e5eb7ac4cc120d86b3e14bc0a4cd",
         "url": "https://open.spotify.com/artist/1AbJ2cmwK400LSvdvBL5Jc"
+      },
+      {
+        "name": "Tokyo Tea Room",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb435b1a87fad7698734474eca",
+        "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
       },
       {
         "name": "infime",
@@ -103,11 +108,6 @@
         "name": "Bishu",
         "img": "https://i.scdn.co/image/ab6761610000e5eb19cbead22f5281d682cf224f",
         "url": "https://open.spotify.com/artist/1DzQInbDVhE9Lh5s6T0DUL"
-      },
-      {
-        "name": "Tokyo Tea Room",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb435b1a87fad7698734474eca",
-        "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
       },
       {
         "name": "KAYTRANADA",
