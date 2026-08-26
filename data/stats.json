@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T05:45:31.488Z",
+  "generatedAt": "2026-08-26T19:16:25.801Z",
   "spotify": {
     "tracks": [
       {
@@ -75,14 +75,14 @@
         "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
       },
       {
-        "name": "infime",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
-        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
-      },
-      {
         "name": "Meanetik",
         "img": "https://i.scdn.co/image/ab6761610000e5eb79daf574a7890f0817afcad8",
         "url": "https://open.spotify.com/artist/1UgN7n2FZqB48m0Eh2w0HE"
+      },
+      {
+        "name": "infime",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
+        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
       },
       {
         "name": "Shroomyland",
