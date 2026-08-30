@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T11:39:03.361Z",
+  "generatedAt": "2026-08-30T10:27:44.215Z",
   "spotify": {
     "tracks": [
       {
@@ -21,6 +21,12 @@
         "url": "https://open.spotify.com/track/0OblxGfTmtALWjImtm7DFd"
       },
       {
+        "name": "Inner Light",
+        "artist": "Elderbrook",
+        "img": "https://i.scdn.co/image/ab67616d0000b273b0d29f52583a4d94ebc42b38",
+        "url": "https://open.spotify.com/track/40tPP3K10yMZxwnT65REKj"
+      },
+      {
         "name": "No Voices",
         "artist": "infime",
         "img": "https://i.scdn.co/image/ab67616d0000b273d1008d3c810e93d50140b967",
@@ -33,28 +39,22 @@
         "url": "https://open.spotify.com/track/2u8ROnAgys9J1DmBYOlMNX"
       },
       {
-        "name": "F Song",
-        "artist": "Strawberry Guy",
-        "img": "https://i.scdn.co/image/ab67616d0000b2736cfe31d4e5d58710add69045",
-        "url": "https://open.spotify.com/track/4z9KVNX4hmk672SJfhtQNz"
-      },
-      {
         "name": "silk",
         "artist": "TRAVEL BUREAU",
         "img": "https://i.scdn.co/image/ab67616d0000b2733f62bd711d6a7e1f44e5638f",
         "url": "https://open.spotify.com/track/2StoHVfWZGwrAKq3wDoHQb"
       },
       {
+        "name": "F Song",
+        "artist": "Strawberry Guy",
+        "img": "https://i.scdn.co/image/ab67616d0000b2736cfe31d4e5d58710add69045",
+        "url": "https://open.spotify.com/track/4z9KVNX4hmk672SJfhtQNz"
+      },
+      {
         "name": "forever, with you",
         "artist": "Paradise Blossom",
         "img": "https://i.scdn.co/image/ab67616d0000b2737beeab3006f49f8ead2cf1a7",
         "url": "https://open.spotify.com/track/7EJGWPM6V11qjctiMRB8RH"
-      },
-      {
-        "name": "Sun Outside My Window",
-        "artist": "Strawberry Guy",
-        "img": "https://i.scdn.co/image/ab67616d0000b273c8ed155c56e641dad4fcce76",
-        "url": "https://open.spotify.com/track/5fCqHoueAR1Q790mPKj1HR"
       },
       {
         "name": "Blue (Da Ba Dee) - Gabry Ponte Video Edit",
@@ -68,11 +68,6 @@
         "name": "Tokyo Tea Room",
         "img": "https://i.scdn.co/image/ab6761610000e5eb435b1a87fad7698734474eca",
         "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
-      },
-      {
-        "name": "Strawberry Guy",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb7ac4cc120d86b3e14bc0a4cd",
-        "url": "https://open.spotify.com/artist/1AbJ2cmwK400LSvdvBL5Jc"
       },
       {
         "name": "Meanetik",
@@ -95,11 +90,6 @@
         "url": "https://open.spotify.com/artist/1YCFvBoIeRSc0HMU7fhUZA"
       },
       {
-        "name": "PREP",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb4412c54134e8bbf2583cc618",
-        "url": "https://open.spotify.com/artist/31SBgHxc8eqZUk9MdveH42"
-      },
-      {
         "name": "Bishu",
         "img": "https://i.scdn.co/image/ab6761610000e5eb19cbead22f5281d682cf224f",
         "url": "https://open.spotify.com/artist/1DzQInbDVhE9Lh5s6T0DUL"
@@ -113,6 +103,16 @@
         "name": "TRAVEL BUREAU",
         "img": "https://i.scdn.co/image/ab6761610000e5ebf5651d6e3c4a7369876bf33f",
         "url": "https://open.spotify.com/artist/008OLJeMPEeLp6Rc1bcWAl"
+      },
+      {
+        "name": "Nvrtheless",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb6c62817bfb55f156c66a69d1",
+        "url": "https://open.spotify.com/artist/2BW5x3AZO7rmhy8zcqWmxi"
+      },
+      {
+        "name": "Froman",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebeec5f55295e69e20990a4732",
+        "url": "https://open.spotify.com/artist/2XmYUy3NJHRuT3hBb8IS76"
       }
     ]
   },
