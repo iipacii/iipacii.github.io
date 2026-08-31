@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T19:49:33.019Z",
+  "generatedAt": "2026-08-31T11:34:16.423Z",
   "spotify": {
     "tracks": [
       {
@@ -39,16 +39,16 @@
         "url": "https://open.spotify.com/track/2u8ROnAgys9J1DmBYOlMNX"
       },
       {
-        "name": "F Song",
-        "artist": "Strawberry Guy",
-        "img": "https://i.scdn.co/image/ab67616d0000b2736cfe31d4e5d58710add69045",
-        "url": "https://open.spotify.com/track/4z9KVNX4hmk672SJfhtQNz"
-      },
-      {
         "name": "silk",
         "artist": "TRAVEL BUREAU",
         "img": "https://i.scdn.co/image/ab67616d0000b2733f62bd711d6a7e1f44e5638f",
         "url": "https://open.spotify.com/track/2StoHVfWZGwrAKq3wDoHQb"
+      },
+      {
+        "name": "F Song",
+        "artist": "Strawberry Guy",
+        "img": "https://i.scdn.co/image/ab67616d0000b2736cfe31d4e5d58710add69045",
+        "url": "https://open.spotify.com/track/4z9KVNX4hmk672SJfhtQNz"
       },
       {
         "name": "forever, with you",
@@ -105,14 +105,14 @@
         "url": "https://open.spotify.com/artist/008OLJeMPEeLp6Rc1bcWAl"
       },
       {
+        "name": "M83",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb961ef259d6d8101edd2f80c0",
+        "url": "https://open.spotify.com/artist/63MQldklfxkjYDoUE4Tppz"
+      },
+      {
         "name": "Nvrtheless",
         "img": "https://i.scdn.co/image/ab6761610000e5eb6c62817bfb55f156c66a69d1",
         "url": "https://open.spotify.com/artist/2BW5x3AZO7rmhy8zcqWmxi"
-      },
-      {
-        "name": "Froman",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebeec5f55295e69e20990a4732",
-        "url": "https://open.spotify.com/artist/2XmYUy3NJHRuT3hBb8IS76"
       }
     ]
   },
