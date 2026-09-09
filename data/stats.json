@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T19:53:45.740Z",
+  "generatedAt": "2026-09-09T09:41:32.096Z",
   "spotify": {
     "tracks": [
       {
@@ -80,11 +80,6 @@
         "url": "https://open.spotify.com/artist/2X2ErfWZbEsawLjylqXM3m"
       },
       {
-        "name": "Shroomyland",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
-        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
-      },
-      {
         "name": "Meanetik",
         "img": "https://i.scdn.co/image/ab6761610000e5eb79daf574a7890f0817afcad8",
         "url": "https://open.spotify.com/artist/1UgN7n2FZqB48m0Eh2w0HE"
@@ -93,6 +88,11 @@
         "name": "infime",
         "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
         "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
+      },
+      {
+        "name": "Shroomyland",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
+        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
       },
       {
         "name": "Bishu",
@@ -105,14 +105,14 @@
         "url": "https://open.spotify.com/artist/6O9vGMmTwzihULICPCsNf2"
       },
       {
-        "name": "TRAVEL BUREAU",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebf5651d6e3c4a7369876bf33f",
-        "url": "https://open.spotify.com/artist/008OLJeMPEeLp6Rc1bcWAl"
-      },
-      {
         "name": "Nvrtheless",
         "img": "https://i.scdn.co/image/ab6761610000e5eb6c62817bfb55f156c66a69d1",
         "url": "https://open.spotify.com/artist/2BW5x3AZO7rmhy8zcqWmxi"
+      },
+      {
+        "name": "TRAVEL BUREAU",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebf5651d6e3c4a7369876bf33f",
+        "url": "https://open.spotify.com/artist/008OLJeMPEeLp6Rc1bcWAl"
       }
     ]
   },
