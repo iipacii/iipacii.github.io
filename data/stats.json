@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T10:35:47.006Z",
+  "generatedAt": "2026-09-14T20:56:10.010Z",
   "spotify": {
     "tracks": [
       {
@@ -65,6 +65,11 @@
     ],
     "artists": [
       {
+        "name": "Yndling",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb5bf4462ddbece4c04f8126f0",
+        "url": "https://open.spotify.com/artist/2X2ErfWZbEsawLjylqXM3m"
+      },
+      {
         "name": "Tokyo Tea Room",
         "img": "https://i.scdn.co/image/ab6761610000e5eb435b1a87fad7698734474eca",
         "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
@@ -73,11 +78,6 @@
         "name": "M83",
         "img": "https://i.scdn.co/image/ab6761610000e5eb961ef259d6d8101edd2f80c0",
         "url": "https://open.spotify.com/artist/63MQldklfxkjYDoUE4Tppz"
-      },
-      {
-        "name": "Yndling",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb5bf4462ddbece4c04f8126f0",
-        "url": "https://open.spotify.com/artist/2X2ErfWZbEsawLjylqXM3m"
       },
       {
         "name": "Meanetik",
