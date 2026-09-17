@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T09:54:29.229Z",
+  "generatedAt": "2026-09-17T09:57:49.331Z",
   "spotify": {
     "tracks": [
       {
@@ -13,12 +13,6 @@
         "artist": "Yndling",
         "img": "https://i.scdn.co/image/ab67616d0000b273e1f231c1941f0209906e3672",
         "url": "https://open.spotify.com/track/4VQO8F8rlxTRLHCB3f0hWz"
-      },
-      {
-        "name": "No Voices",
-        "artist": "infime",
-        "img": "https://i.scdn.co/image/ab67616d0000b273d1008d3c810e93d50140b967",
-        "url": "https://open.spotify.com/track/7yRwLhz1ybHIYP6fEldduW"
       },
       {
         "name": "forever, with you",
@@ -45,6 +39,12 @@
         "url": "https://open.spotify.com/track/40tPP3K10yMZxwnT65REKj"
       },
       {
+        "name": "No Voices",
+        "artist": "infime",
+        "img": "https://i.scdn.co/image/ab67616d0000b273d1008d3c810e93d50140b967",
+        "url": "https://open.spotify.com/track/7yRwLhz1ybHIYP6fEldduW"
+      },
+      {
         "name": "always be yours",
         "artist": "Shroomyland",
         "img": "https://i.scdn.co/image/ab67616d0000b27355d6d6ecc40619cdc40ceddc",
@@ -57,10 +57,10 @@
         "url": "https://open.spotify.com/track/4z9KVNX4hmk672SJfhtQNz"
       },
       {
-        "name": "Always Tomorrow",
-        "artist": "Tokyo Tea Room",
-        "img": "https://i.scdn.co/image/ab67616d0000b27337fc8bfd25d6a6c76972bf0b",
-        "url": "https://open.spotify.com/track/0OblxGfTmtALWjImtm7DFd"
+        "name": "best friend",
+        "artist": "Dev Lemons",
+        "img": "https://i.scdn.co/image/ab67616d0000b273e9210bbb5cf08d2d6d4b260e",
+        "url": "https://open.spotify.com/track/0iJIxcFyqdV8ingh6i1lvx"
       }
     ],
     "artists": [
@@ -75,6 +75,11 @@
         "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
       },
       {
+        "name": "Dev Lemons",
+        "img": "https://i.scdn.co/image/ab6761610000e5eb27e3c8110c8a6d18bf3c1534",
+        "url": "https://open.spotify.com/artist/5zbFRbEu3FDkqN4j1awLLO"
+      },
+      {
         "name": "M83",
         "img": "https://i.scdn.co/image/ab6761610000e5eb961ef259d6d8101edd2f80c0",
         "url": "https://open.spotify.com/artist/63MQldklfxkjYDoUE4Tppz"
@@ -85,24 +90,9 @@
         "url": "https://open.spotify.com/artist/1UgN7n2FZqB48m0Eh2w0HE"
       },
       {
-        "name": "Dev Lemons",
-        "img": "https://i.scdn.co/image/ab6761610000e5eb27e3c8110c8a6d18bf3c1534",
-        "url": "https://open.spotify.com/artist/5zbFRbEu3FDkqN4j1awLLO"
-      },
-      {
-        "name": "infime",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebe25df94f5f43c8b283c255ab",
-        "url": "https://open.spotify.com/artist/6dtCrfeaOCdMqHdWBpG7eI"
-      },
-      {
         "name": "Enrico Pieranunzi",
         "img": "https://i.scdn.co/image/ab6761610000e5ebfcad0c115a55aedcae7c14c1",
         "url": "https://open.spotify.com/artist/5vACdMa2kY7jHnlJwqYRKP"
-      },
-      {
-        "name": "Shroomyland",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
-        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
       },
       {
         "name": "Ennio Morricone",
@@ -110,9 +100,19 @@
         "url": "https://open.spotify.com/artist/1nIUhcKHnK6iyumRyoV68C"
       },
       {
+        "name": "Shroomyland",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebf8eaa347e0712a342dbb1827",
+        "url": "https://open.spotify.com/artist/4SIfJ50jBkaEq00NKwEjij"
+      },
+      {
         "name": "Hans Zimmer",
         "img": "https://i.scdn.co/image/ab6761610000e5eb371632043a8c12bb7eeeaf9d",
         "url": "https://open.spotify.com/artist/0YC192cP3KPCRWx8zr8MfZ"
+      },
+      {
+        "name": "Balu Brigada",
+        "img": "https://i.scdn.co/image/ab6761610000e5ebccc589c6a68e2d14796bb736",
+        "url": "https://open.spotify.com/artist/6O9vGMmTwzihULICPCsNf2"
       }
     ]
   },
