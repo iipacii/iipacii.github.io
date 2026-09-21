@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:26:03.729Z",
+  "generatedAt": "2026-09-21T10:39:44.245Z",
   "spotify": {
     "tracks": [
       {
@@ -75,6 +75,11 @@
         "url": "https://open.spotify.com/artist/3lzTKwFsOqxtp5cLJ2qbSD"
       },
       {
+        "name": "Ludwig Göransson",
+        "img": "https://i.scdn.co/image/e7a97b420e09f4f125cd3e14fca5e7ea174e74e0",
+        "url": "https://open.spotify.com/artist/24eDfi2MSYo3A87hCcgpIL"
+      },
+      {
         "name": "Dev Lemons",
         "img": "https://i.scdn.co/image/ab6761610000e5eb27e3c8110c8a6d18bf3c1534",
         "url": "https://open.spotify.com/artist/5zbFRbEu3FDkqN4j1awLLO"
@@ -108,11 +113,6 @@
         "name": "Meanetik",
         "img": "https://i.scdn.co/image/ab6761610000e5eb79daf574a7890f0817afcad8",
         "url": "https://open.spotify.com/artist/1UgN7n2FZqB48m0Eh2w0HE"
-      },
-      {
-        "name": "Balu Brigada",
-        "img": "https://i.scdn.co/image/ab6761610000e5ebccc589c6a68e2d14796bb736",
-        "url": "https://open.spotify.com/artist/6O9vGMmTwzihULICPCsNf2"
       }
     ]
   },
